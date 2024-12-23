@@ -1,0 +1,6 @@
+- id: ansible-encryption-check
+  name: Check for unencrypted Ansible vault file
+  description: This hook will check that vars/vault.yaml is encrypted
+  entry: ./hook.sh
+  language: script
+  always_run: true
